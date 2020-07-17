@@ -13,7 +13,8 @@ namespace Pastry
 
     public int pastryTotal()
     {
-      return;
+      var pastryTotal = PastryItem * 2;
+      return pastryTotal;
     }
   }
 }
