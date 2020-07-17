@@ -13,5 +13,13 @@ namespace Pastry.Test
       PastryOrder newOrder = new PastryOrder(10);
       Assert.AreEqual(true, newOrder.PastryItem == 10);
     }
+
+    [TestMethod]
+    public void Pastry_CalculatesTotalOfPastry_Total()
+    {
+      PastryOrder newOrder = new PastryOrder(2);
+      int result = newOrder.pastryTotal();
+      Assert.AreEqual(4, result);
+    }
   }
 }

@@ -10,5 +10,10 @@ namespace Pastry
     {
       PastryItem = pastryItem;
     }
+
+    public int pastryTotal()
+    {
+      return;
+    }
   }
 }
