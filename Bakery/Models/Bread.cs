@@ -1,10 +1,14 @@
 using System;
 
-namespace Breadloaf.Models
+namespace BreadLoaf
 {
   public class Bread
   {
-    // properties, constructors, methods, etc. go here
-    
+    public int BreadLoaf { get; set; }
+
+    public Order(int breadLoaf)
+    {
+      BreadLoaf = breadLoaf;
+    }
   }
 }

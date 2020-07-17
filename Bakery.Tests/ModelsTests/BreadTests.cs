@@ -1,16 +1,16 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Breadloaf.Models;
+using BreadLoaf;
 
-namespace Breadloaf.Tests
+namespace BreadLoaf.Tests
 {
   [TestClass]
   public class Bread
   {
     [TestMethod]
-    public void AddLoaf_AddsALoafToAnOrder_Item()
+    public void AddLoafs_CanInputNumberOfBreadLoafs_True()
     {
-      
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Order newOrder = new Order(3);
+      Assert.AreEqual(true, newOrder.Bread == 3);
     }
   }
 }
