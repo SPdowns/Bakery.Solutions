@@ -4,11 +4,11 @@ namespace BreadLoaf
 {
   public class Bread
   {
-    public int BreadLoaf { get; set; }
+    public int BreadLoafs { get; set; }
 
-    public Order(int breadLoaf)
+    public Bread(int breadLoafs)
     {
-      BreadLoaf = breadLoaf;
+
     }
   }
 }
