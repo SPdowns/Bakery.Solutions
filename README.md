@@ -37,7 +37,11 @@ Running the program:
 
 ## Known Bugs
 
-_None currently known._
+There is no argument given that corresponds to the required formal parameter 'breadLoafs
+
+An object reference is required for the non-static field, method, or property 'Bread.BreadTotal(int)
+
+Main.cs(22,29): error CS7036: There is no argument given that corresponds to the required formal parameter 'breadLoafs' of 'Bread.BreadTotal(int)'
 
 ## Support and contact details
 
