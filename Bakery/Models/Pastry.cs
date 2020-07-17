@@ -8,7 +8,7 @@ namespace Pastry
 
     public PastryOrder(int pastryItem)
     {
-
+      PastryItem = pastryItem;
     }
   }
 }
