@@ -15,10 +15,12 @@ namespace BreadLoaf.Tests
 
     [TestMethod]
     public void CalcLoafs_CalculatesTotalOFBraodLoafs_Total()
-    {      
+    {
+      int breadTotal = 0;
       Bread newOrder = new Bread(3);
-      newOrder.BreadLoafs.breadTotal();
-      Assert.AreEqual(15, newOrder);
+      int result = newOrder.BreadLoafs;
+      newOrder.breadTotal();
+      Assert.AreEqual(15, result);
     }
   }
 }
