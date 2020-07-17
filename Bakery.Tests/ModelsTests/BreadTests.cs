@@ -16,7 +16,6 @@ namespace BreadLoaf.Tests
     [TestMethod]
     public void CalcLoafs_CalculatesTotalOFBraodLoafs_Total()
     {
-      int breadTotal = 0;
       Bread newOrder = new Bread(3);
       int result = newOrder.BreadLoafs;
       newOrder.breadTotal();
