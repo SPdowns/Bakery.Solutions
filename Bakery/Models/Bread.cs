@@ -12,9 +12,9 @@ namespace BreadLoaf
       BreadLoafs = breadLoafs;
     }
 
-    public int BreadTotal(int userBreadLoafs)
+    public int BreadTotal(int breadLoafs)
     {
-      var breadPrice = this.BreadLoafs * 5;
+      var breadPrice = breadLoafs * 5;
       return breadPrice;
     }
   }
