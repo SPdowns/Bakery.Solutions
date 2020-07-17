@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System;
 
 namespace BreadLoaf
@@ -11,10 +12,10 @@ namespace BreadLoaf
       BreadLoafs = breadLoafs;
     }
 
-    public int breadTotal()
+    public int BreadTotal(int breadLoafs)
     {
-      var breadTotal = this.BreadLoafs * 5;
-      return breadTotal;
+      var breadPrice = this.BreadLoafs * 5;
+      return breadPrice;
     }
   }
 }

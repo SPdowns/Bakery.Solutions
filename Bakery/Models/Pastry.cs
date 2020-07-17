@@ -11,7 +11,7 @@ namespace Pastry
       PastryItem = pastryItem;
     }
 
-    public int pastryTotal()
+    public int PastryTotal()
     {
       var pastryTotal = PastryItem * 2;
       return pastryTotal;

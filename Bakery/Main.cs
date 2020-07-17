@@ -17,6 +17,8 @@ namespace Bakery
 
       int breadLoafs = int.Parse(stringBreadloafs);
       int pastryItem = int.Parse(stringPastryItem);
+      int total = Bread.BreadTotal(breadLoafs);
+      Console.WriteLine($"Your order bread total {total}");
     }
   }
 }
