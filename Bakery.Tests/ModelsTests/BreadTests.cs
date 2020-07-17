@@ -17,8 +17,8 @@ namespace BreadLoaf.Tests
     public void CalcLoafs_CalculatesTotalOFBraodLoafs_Total()
     {      
       Bread newOrder = new Bread(3);
-      var breadTotal = newOrder.BreadLoafs * 5;
-      Assert.AreEqual(15, breadTotal);
+      newOrder.breadTotal();
+      Assert.AreEqual(15, newOrder);
     }
   }
 }

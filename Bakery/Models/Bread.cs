@@ -10,5 +10,11 @@ namespace BreadLoaf
     {
       BreadLoafs = breadLoafs;
     }
+
+    public int breadTotal()
+    {
+      var breadTotal = this.BreadLoafs * 5;
+      return breadTotal;
+    }
   }
 }
