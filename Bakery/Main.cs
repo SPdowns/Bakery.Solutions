@@ -15,10 +15,11 @@ namespace Bakery
       Console.WriteLine("How many Pastry do you want?");
       string stringPastryItem = Console.ReadLine();
 
-      int breadLoafs = int.Parse(stringBreadloafs);
+      int userBreadLoafs = int.Parse(stringBreadloafs);
       int pastryItem = int.Parse(stringPastryItem);
 
-      int total = Bread.breadPrice.BreadTotal();
+      Bread userBread = new Bread(userBreadLoafs);
+      int total = userBread.BreadTotal();
       Console.WriteLine($"Your order bread total {total}");
     }
   }
