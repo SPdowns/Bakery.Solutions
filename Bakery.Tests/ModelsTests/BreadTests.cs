@@ -12,5 +12,12 @@ namespace BreadLoaf.Tests
       Bread newOrder = new Bread(3);
       Assert.AreEqual(true, newOrder.BreadLoafs == 3);
     }
+
+    [TestMethod]
+    public void CalcLoafs_CalculatesTotalOFBraodLoafs_Total()
+    {      
+      Bread newOrder = new Bread(3);
+      newOrder.BreadLoafs
+    }
   }
 }

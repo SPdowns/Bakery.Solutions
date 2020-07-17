@@ -17,8 +17,6 @@ namespace Bakery
 
       int breadLoafs = int.Parse(stringBreadloafs);
       int pastryItem = int.Parse(stringPastryItem);
-
-      Order
     }
   }
 }
