@@ -8,7 +8,7 @@ namespace BreadLoaf
 
     public Bread(int breadLoafs)
     {
-
+      BreadLoafs = breadLoafs;
     }
   }
 }
