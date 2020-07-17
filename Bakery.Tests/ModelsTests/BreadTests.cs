@@ -4,13 +4,13 @@ using BreadLoaf;
 namespace BreadLoaf.Tests
 {
   [TestClass]
-  public class Bread
+  public class BreadTests
   {
     [TestMethod]
     public void AddLoafs_CanInputNumberOfBreadLoafs_True()
     {
-      Order newOrder = new Order(3);
-      Assert.AreEqual(true, newOrder.Bread == 3);
+      Bread newOrder = new Bread(3);
+      Assert.AreEqual(true, newOrder.BreadLoafs == 3);
     }
   }
 }
