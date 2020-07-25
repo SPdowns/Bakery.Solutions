@@ -16,16 +16,18 @@ namespace Bakery
       Console.WriteLine("Hello User; Welcome to the future of bread ordering!");
       Console.WriteLine("We have two items for sale. Bread and Pastry.");
       Console.WriteLine("How many bread do you want?");
-      string stringBreadloafs = Console.ReadLine();
+      string stringBreadLoafs = Console.ReadLine();
       Console.WriteLine("How many Pastry do you want?");
       string stringPastryItem = Console.ReadLine();
 
-      int userBreadLoafs = int.Parse(stringBreadloafs);
+      int userBreadLoafs = int.Parse(stringBreadLoafs);
       int pastryItem = int.Parse(stringPastryItem);
 
       Bread userBread = new Bread(userBreadLoafs);
-      int total = userBread.BreadTotal();
-      Console.WriteLine($"Your order bread total {total}");
+      int breadTotal = userBread.BreadTotal(userBreadLoafs);
+      Pastry userPastry = new Pastry(pastryItem);
+      int pastryTotal = Pastry.PastryTotal(pastryItem);
+      Console.WriteLine($"Your order bread total {breadTotal} and your pastry total is {pastryTotal}");
     }
   }
 }

@@ -9,10 +9,10 @@ namespace Bakery.Models
     {
       BreadLoafs = breadLoafs;
     }
-    public int BreadTotal(int breadLoafs)
+    public static int BreadTotal(int breadLoaf)
     {
-      var breadPrice = breadLoafs * 5;
-      return breadPrice;
+      if 
+      return breadLoaf * 5;
     }
   }
 }
