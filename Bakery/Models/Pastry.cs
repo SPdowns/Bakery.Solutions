@@ -20,13 +20,17 @@ namespace Bakery.Models
       {
         return pastryItem * 2;
       }
-      else if (pastryItem == 3 || pastryItem%3 == 1)
+      else if (pastryItem == 3)
       {
         return (pastryItem * 2) - 1;
       }
       else if (pastryItem % 3 == 2)
       {
-        return (pastryItem * 2) -2;
+        return (((pastryItem -2)/3)*2)+4;
+      }
+      else if 
+      {
+
       }
       else
       {

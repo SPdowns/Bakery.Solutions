@@ -25,7 +25,7 @@ namespace Bakery.Models
       }
       else if (breadLoaf%3 == 1)
       {
-        return ((breadLoaf-1)*5)+5;
+        return ((((breadLoaf-1)/3)*2)*5)+5;
       }
       else if (breadLoaf%3 == 0)
       {
