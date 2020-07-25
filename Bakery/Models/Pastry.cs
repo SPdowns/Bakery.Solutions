@@ -1,12 +1,12 @@
-using System;
+using System.Collections.Generic;
 
 namespace Bakery.Models
 {
-  public class PastryOrder
+  public class Pastry
   {
     public int PastryItem { get; set; }
 
-    public PastryOrder(int pastryItem)
+    public Pastry(int pastryItem)
     {
       PastryItem = pastryItem;
     }

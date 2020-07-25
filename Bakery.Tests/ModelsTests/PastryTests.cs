@@ -10,15 +10,15 @@ namespace Bakery.Test
     [TestMethod]
     public void Pastry_CanInputPastryItems_True()
     {
-      PastryOrder newOrder = new PastryOrder(10);
+      Pastry newOrder = new Pastry(10);
       Assert.AreEqual(true, newOrder.PastryItem == 10);
     }
 
     [TestMethod]
     public void Pastry_CalculatesTotalOfPastry_Total()
     {
-      PastryOrder newOrder = new PastryOrder(2);
-      int result = newOrder.pastryTotal();
+      Pastry newOrder = new Pastry(2);
+      int result = newOrder.PastryTotal();
       Assert.AreEqual(4, result);
     }
   }
