@@ -18,19 +18,15 @@ namespace Bakery.Models
     {
       if (pastryItem == 1 || pastryItem == 2)
       {
-        return pastryItem*5;
-      }
-      else if (pastryItem%3 == 2)
-      {
-        return (pastryItem-2)*5;
+        return pastryItem * 2;
       }
       else if (pastryItem == 3 || pastryItem%3 == 1)
       {
-        return (pastryItem-1)*5;
+        return (pastryItem * 2) - 1;
       }
-      else if (pastryItem%3 == 0)
+      else if (pastryItem % 3 == 2)
       {
-        return pastryItem*5/3;
+        return (pastryItem * 2) -2;
       }
       else
       {
