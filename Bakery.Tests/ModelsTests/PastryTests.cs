@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pastry;
+using Bakery.Models;
 
-namespace Pastry.Test
+namespace Bakery.Test
 {
   [TestClass]
   
