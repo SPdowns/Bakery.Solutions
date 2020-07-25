@@ -17,7 +17,7 @@ namespace Bakery.Tests
     public void CalcLoafs_CalculatesTotalOFBraodLoafs_Total()
     {
       Bread newOrder = new Bread(3);
-      int result = newOrder.BreadTotal(9);
+      int result = newOrder.BreadTotal(3);
       Assert.AreEqual(15, result);
     }
   }
