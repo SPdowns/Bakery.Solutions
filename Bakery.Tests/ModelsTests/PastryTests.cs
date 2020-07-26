@@ -17,9 +17,9 @@ namespace Bakery.Test
     [TestMethod]
     public void Pastry_CalculatesTotalOfPastry_Total()
     {
-      Pastry newOrder = new Pastry(2);
-      int result = Pastry.PastryTotal(2);
-      Assert.AreEqual(4, result);
+      Pastry newOrder = new Pastry(17);
+      int result = Pastry.PastryTotal(17);
+      Assert.AreEqual(29, result);
     }
   }
 }
